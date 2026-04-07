@@ -1,3 +1,6 @@
+from grades_manager import add_student, avg_by_student
+ 
+ 
 def main():
     print("Welcome to the Student Grades Manager!")
     my_grades = {}
@@ -37,5 +40,5 @@ def main():
             print("Invalid option selected!")
  
  
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()

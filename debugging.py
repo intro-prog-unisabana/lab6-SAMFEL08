@@ -60,6 +60,6 @@ def run_program():
         else:
             print("Invalid option. Please choose 1, 2, 3, or 4.\n")
   
-if _name_ == "_main_":
+if __name__ == "__main__":
     run_program()
     # FREEZE CODE END
